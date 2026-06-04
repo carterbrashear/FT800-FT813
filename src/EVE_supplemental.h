@@ -55,4 +55,8 @@ void EVE_calibrate_write(const uint32_t tta, const uint32_t ttb, const uint32_t 
 void EVE_calibrate_read(uint32_t * const p_tta, uint32_t * const p_ttb, uint32_t * const p_ttc, uint32_t * const p_ttd, uint32_t * const p_tte, uint32_t * const p_ttf);
 void EVE_calibrate_manual(const uint16_t width, const uint16_t height);
 
+#ifdef __cplusplus
+}
+#endif
+
 #endif /* EVE_SUPPLEMENTAL_H */
